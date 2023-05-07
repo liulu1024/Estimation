@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02390209-254f-406e-ac82-0df1719084dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/P2$create_Encoder_model.coverage" NAME="create_Encoder_model Coverage Results" MODIFIED="1656985072743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encoder/model" />
+    <SUITE FILE_PATH="coverage/P2$run.coverage" NAME="run Coverage Results" MODIFIED="1670826651773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/P2$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1670209261361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encoder" />
+    <SUITE FILE_PATH="coverage/P2$Param_model.coverage" NAME="Param_model Coverage Results" MODIFIED="1656345027713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encoder/model" />
+    <SUITE FILE_PATH="coverage/P2$Analysis__1_.coverage" NAME="Analysis (1) Coverage Results" MODIFIED="1670399336913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encoder" />
+    <SUITE FILE_PATH="coverage/P2$create_Latent_model.coverage" NAME="create_Latent_model Coverage Results" MODIFIED="1654601667958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN/model" />
+    <SUITE FILE_PATH="coverage/P2$Lorenz_equation.coverage" NAME="Lorenz_equation Coverage Results" MODIFIED="1669711506782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataGenerate" />
+    <SUITE FILE_PATH="coverage/P2$test.coverage" NAME="test Coverage Results" MODIFIED="1663410243642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P2$run_conv.coverage" NAME="run_conv Coverage Results" MODIFIED="1664292839854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/P2$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1670062175330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/Estimation$load_configs.coverage" NAME="load_configs Coverage Results" MODIFIED="1671777796783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comm_lib" />
+    <SUITE FILE_PATH="coverage/P2$run_vae.coverage" NAME="run_vae Coverage Results" MODIFIED="1664024441723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/P2$tools.coverage" NAME="tools Coverage Results" MODIFIED="1670669671550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataGenerate" />
+    <SUITE FILE_PATH="coverage/P2$FN_equation.coverage" NAME="FN_equation Coverage Results" MODIFIED="1658835834332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataGenerate" />
+    <SUITE FILE_PATH="coverage/Estimation$run.coverage" NAME="run Coverage Results" MODIFIED="1672734485955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/P2$train_comapre.coverage" NAME="train_comapre Coverage Results" MODIFIED="1649771175482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encoder" />
+    <SUITE FILE_PATH="coverage/P2$encoder_decoder.coverage" NAME="encoder_decoder Coverage Results" MODIFIED="1659711970611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encoder/model" />
+    <SUITE FILE_PATH="coverage/P2$run_convs.coverage" NAME="run_convs Coverage Results" MODIFIED="1664024814974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/Estimation$run_param.coverage" NAME="run_param Coverage Results" MODIFIED="1672732341448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$run_dis.coverage" NAME="run_dis Coverage Results" MODIFIED="1675593484664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/P2$LOP_equation.coverage" NAME="LOP_equation Coverage Results" MODIFIED="1670656090172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataGenerate" />
+    <SUITE FILE_PATH="coverage/P2$run_mlp.coverage" NAME="run_mlp Coverage Results" MODIFIED="1664280447434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/P2$run_vae__1_.coverage" NAME="run_vae (1) Coverage Results" MODIFIED="1664281063299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/Estimation$Base_param.coverage" NAME="Base_param Coverage Results" MODIFIED="1671913810400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/P2$Analysis__2_.coverage" NAME="Analysis (2) Coverage Results" MODIFIED="1670314265733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAN" />
+    <SUITE FILE_PATH="coverage/Estimation$create_model.coverage" NAME="create_model Coverage Results" MODIFIED="1671914556870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/Estimation$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1676036481554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/P2$Lorenz_equation_1.coverage" NAME="Lorenz_equation_1 Coverage Results" MODIFIED="1660099299024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataGenerate" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>normal</find>
+      <find>generate_param_data</find>
+      <find>dis_model</find>
+      <find>configs['Data']['seq_of_len']</find>
+      <find>prepare_data</find>
+      <find>data_dim_mu</find>
+      <find>param_sigma</find>
+      <find>x0</find>
+      <find />
+      <find>,seq=','</find>
+      <find>configs['Data']['num_of_param']</find>
+      <find>0</find>
+      <find>header=None</find>
+      <find>create_param_model</find>
+      <find>&quot;[</find>
+      <find>2.4000000000000004</find>
+      <find>]&quot;</find>
+      <find>func</find>
+      <find>infer(</find>
+      <find>CosineLR</find>
+      <find>num_of_param</find>
+      <find>with_noise</find>
+      <find>noise</find>
+      <find>time_points</find>
+      <find>train</find>
+      <find>os.remove</find>
+      <find>lv_0.8_0.2_5</find>
+      <find>data_nums</find>
+      <find>real_data_dict</find>
+      <find>param_pic_dir</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cfg</replace>
+      <replace>SimpleDataSet</replace>
+      <replace>latent_dim</replace>
+      <replace>configs['Data']</replace>
+      <replace>=</replace>
+      <replace>Data</replace>
+      <replace>torch.float32</replace>
+      <replace>configs['Ode_func']</replace>
+      <replace>configs_dis</replace>
+      <replace>configs_param</replace>
+      <replace>self.data_noise</replace>
+      <replace>preprocess_data(with_noise)</replace>
+      <replace>float64</replace>
+      <replace>generate_param_data(</replace>
+      <replace>lv_0.8_0.2_5_all</replace>
+      <replace>10</replace>
+      <replace>get_data_dict</replace>
+      <replace>time_points</replace>
+      <replace>sigma_dis</replace>
+      <replace>init_data</replace>
+      <replace>val</replace>
+      <replace>,</replace>
+      <replace>num_of_param</replace>
+      <replace>0.1</replace>
+      <replace>header=1</replace>
+      <replace>2.4</replace>
+      <replace>ode_func</replace>
+      <replace>test</replace>
+      <replace>shutil.rmtree</replace>
+      <replace>lv_0.8_0.2_5_1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/interface/train_model.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/comm_lib/draw.py" />
+        <option value="$PROJECT_DIR$/Est_Param/model/encoder_decoder.py" />
+        <option value="$PROJECT_DIR$/comm_lib/tools.py" />
+        <option value="$PROJECT_DIR$/comm_lib/model_tools.py" />
+        <option value="$PROJECT_DIR$/model/lib.py" />
+        <option value="$PROJECT_DIR$/Est_Param/model/Encoder_Baseline.py" />
+        <option value="$PROJECT_DIR$/model/Net.py" />
+        <option value="$PROJECT_DIR$/model/Base_RNN.py" />
+        <option value="$PROJECT_DIR$/model/Base_model.py" />
+        <option value="$PROJECT_DIR$/model/Base_param_model.py" />
+        <option value="$PROJECT_DIR$/Est_Param/data_process.py" />
+        <option value="$PROJECT_DIR$/train/param_data_process.py" />
+        <option value="$PROJECT_DIR$/Ode_Equation/FN_equation.py" />
+        <option value="$PROJECT_DIR$/DataSet/InferDataset.py" />
+        <option value="$PROJECT_DIR$/model/tools.py" />
+        <option value="$PROJECT_DIR$/train/param_mul_procrss.py" />
+        <option value="$PROJECT_DIR$/DataSet/ParamDataSet.py" />
+        <option value="$PROJECT_DIR$/model/Base_rnn.py" />
+        <option value="$PROJECT_DIR$/model/param_model.py" />
+        <option value="$PROJECT_DIR$/DataSet/DisDataSet.py" />
+        <option value="$PROJECT_DIR$/model/Base_dis.py" />
+        <option value="$PROJECT_DIR$/configs/lv_0.8_0.2_5_all.yaml" />
+        <option value="$PROJECT_DIR$/model/Base_param.py" />
+        <option value="$PROJECT_DIR$/Ode_Equation/LOP_equation.py" />
+        <option value="$PROJECT_DIR$/comm_lib/utils.py" />
+        <option value="$PROJECT_DIR$/model/dis_model.py" />
+        <option value="$PROJECT_DIR$/train/data.csv" />
+        <option value="$PROJECT_DIR$/train/samples.csv" />
+        <option value="$PROJECT_DIR$/train/time.csv" />
+        <option value="$PROJECT_DIR$/train/train_data/samples.csv" />
+        <option value="$PROJECT_DIR$/train/val_data/data.csv" />
+        <option value="$PROJECT_DIR$/train/val_data/samples.csv" />
+        <option value="$PROJECT_DIR$/train/train_data/data.csv" />
+        <option value="$PROJECT_DIR$/model/create_model.py" />
+        <option value="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/val/data.csv" />
+        <option value="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/train/samples.csv" />
+        <option value="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/val/time.csv" />
+        <option value="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/val/samples.csv" />
+        <option value="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/train/data.csv" />
+        <option value="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/train/time.csv" />
+        <option value="$PROJECT_DIR$/train/run.py" />
+        <option value="$PROJECT_DIR$/comm_lib/load_configs.py" />
+        <option value="$PROJECT_DIR$/train/Analysis.py" />
+        <option value="$PROJECT_DIR$/configs/lv_0.8_0.2_5_1.yaml" />
+        <option value="$PROJECT_DIR$/DataSet/CommDataSet.py" />
+        <option value="$PROJECT_DIR$/train/run_dis.py" />
+        <option value="$PROJECT_DIR$/Ode_Equation/Lorenz_equation.py" />
+        <option value="$PROJECT_DIR$/Ode_Equation/comm_tools.py" />
+        <option value="$PROJECT_DIR$/train/run_param.py" />
+        <option value="$PROJECT_DIR$/configs/lv_0.8_0.2_5.yaml" />
+        <option value="$PROJECT_DIR$/train/train_model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectId" id="2LaaDXSByUPRqupxutRaNXzgQJ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estimation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="comm_lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="Ode_Equation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estimation" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/liulu/project/Estimation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/train" />
+      <recent name="$PROJECT_DIR$/configs" />
+      <recent name="$PROJECT_DIR$/train/models_param/models_lv/lv_0.8_0.2_5/data" />
+      <recent name="$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/infer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/train/data/lovo/10" />
+      <recent name="$PROJECT_DIR$/train/data/lovo/8" />
+      <recent name="$PROJECT_DIR$/train/data/lovo/5" />
+      <recent name="$PROJECT_DIR$/train/data/fn/10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Analysis (1)">
+    <configuration name="Analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/Analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lorenz_equation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ode_Equation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ode_Equation/Lorenz_equation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fn_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/fn_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lovo_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/lovo_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Analysis (1)" />
+      <item itemvalue="Python.Lorenz_equation" />
+      <item itemvalue="Python.fn_train" />
+      <item itemvalue="Python.lovo_train" />
+      <item itemvalue="Python.Analysis" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Analysis (1)" />
+        <item itemvalue="Python.Analysis" />
+        <item itemvalue="Python.fn_train" />
+        <item itemvalue="Python.Lorenz_equation" />
+        <item itemvalue="Python.lovo_train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02390209-254f-406e-ac82-0df1719084dc" name="Default Changelist" comment="" />
+      <created>1649766099524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649766099524</updated>
+      <workItem from="1676111541979" duration="61499000" />
+      <workItem from="1677138210131" duration="21727000" />
+      <workItem from="1677316175330" duration="26310000" />
+      <workItem from="1677483805299" duration="6925000" />
+      <workItem from="1677569937295" duration="6006000" />
+      <workItem from="1677580954256" duration="17000" />
+      <workItem from="1677581086789" duration="51891000" />
+      <workItem from="1679794687045" duration="47465000" />
+      <workItem from="1680261609728" duration="17000" />
+      <workItem from="1680504779177" duration="8245000" />
+      <workItem from="1680837685850" duration="677000" />
+      <workItem from="1680912648349" duration="4009000" />
+      <workItem from="1683442290022" duration="4595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.3390558" />
+      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.23247497" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.45903614" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4927711" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32808024" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5272206" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32808024" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.27682403" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.565093" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.34549356" />
+      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.23247497" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.38681948" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49283668" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32808024" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.530086" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32808024" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.27682403" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.639485" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/run.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Param/Analysis.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/Analysis.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/Analysis.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/Analysis.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/Analysis.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Param/Analysis.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Param/run.py</url>
+          <line>1272</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Param/run.py</url>
+          <line>1225</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataGenerate/tools.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataGenerate/tools.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataGenerate/tools.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataGenerate/tools.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/run.py</url>
+          <line>568</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Est_Distribution/run.py</url>
+          <line>569</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/param_model.py</url>
+          <line>475</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/param_model.py</url>
+          <line>298</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/param_model.py</url>
+          <line>314</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/param_model.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ode_Equation/Lorenz_equation.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ode_Equation/Lo_Vo_equation.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ode_Equation/Lorenz_equation.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface/run_param.py</url>
+          <line>576</line>
+          <option name="timeStamp" value="547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/example/fn_train.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/param_model.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="570" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface/run_param.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface/run_param.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataSet/CommDataSet.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="578" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataSet/CommDataSet.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataSet/CommDataSet.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/example/lovo_train.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Estimation$train_model_lovo.coverage" NAME="train_model_lovo Coverage Results" MODIFIED="1677733286190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$lovo_train.coverage" NAME="lovo_train Coverage Results" MODIFIED="1678066903055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$train_model_lop.coverage" NAME="train_model_lop Coverage Results" MODIFIED="1677237789678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1677734804464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$fn_train.coverage" NAME="fn_train Coverage Results" MODIFIED="1679985551007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$train_model_fn.coverage" NAME="train_model_fn Coverage Results" MODIFIED="1677981704890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$lv_train.coverage" NAME="lv_train Coverage Results" MODIFIED="1677984016475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$Analysis__1_.coverage" NAME="Analysis (1) Coverage Results" MODIFIED="1683443455013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/Estimation$Lo_Vo_equation.coverage" NAME="Lo_Vo_equation Coverage Results" MODIFIED="1677480735964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ode_Equation" />
+    <SUITE FILE_PATH="coverage/Estimation$Lorenz_equation.coverage" NAME="Lorenz_equation Coverage Results" MODIFIED="1679803272353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ode_Equation" />
+    <SUITE FILE_PATH="coverage/Estimation$FN_equation.coverage" NAME="FN_equation Coverage Results" MODIFIED="1677228961217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ode_Equation" />
+    <SUITE FILE_PATH="coverage/Estimation$run_param.coverage" NAME="run_param Coverage Results" MODIFIED="1677372065428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/Estimation$LOP_equation.coverage" NAME="LOP_equation Coverage Results" MODIFIED="1677046256027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ode_Equation" />
+    <SUITE FILE_PATH="coverage/Estimation$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1680571721428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/train/models_param/models_lv/lv_0.8_0.2_5_all/mlp/infer_0/param_pic/param_0.png" />
+    <entry file="file://$PROJECT_DIR$/model/Base_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/deepdish/io/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/lv_0.8_0.2_5_all.yaml" />
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="263" column="8" selection-start-line="263" selection-start-column="8" selection-end-line="263" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/tables/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Base_dis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/train_data/time.csv" />
+    <entry file="file://$PROJECT_DIR$/train/val_data/data.csv" />
+    <entry file="file://$PROJECT_DIR$/train/val_data/samples.csv" />
+    <entry file="file://$PROJECT_DIR$/model/dis_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/train_data/data.csv" />
+    <entry file="file://$PROJECT_DIR$/train/train_data/samples.csv" />
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/val/time.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/val/samples.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/val/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/train/samples.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/train/time.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/run.py" />
+    <entry file="file://$PROJECT_DIR$/Ode_Equation/LOP_equation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm_lib/load_configs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/905874294/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3867">
+          <caret line="10178" column="8" selection-start-line="10178" selection-start-column="8" selection-end-line="10178" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/time.csv" />
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/samples.csv" />
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/data.csv" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1410" selection-start-line="1410" selection-end-line="1410" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/905874294/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="4882" column="8" selection-start-line="4882" selection-start-column="8" selection-end-line="4882" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2647">
+          <caret line="2009" selection-start-line="2009" selection-end-line="2009" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/create_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/param_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#217#1794#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/train/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_dis/models_lv/lv_0.8_0.2_5/data/infer/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_param/models_lv/lv_0.8_0.2_5/data/infer/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_param/models_lv/lv_0.8_0.2_5/data/train/params.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/models_param/models_lv/lv_0.8_0.2_5/data/train/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="385" selection-start-line="385" selection-end-line="390" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/lv_0.8_0.2_5_1.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm_lib/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+          <folding>
+            <element signature="e#2#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/lmfit/minimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36210">
+          <caret line="2439" column="4" selection-start-line="2439" selection-start-column="4" selection-end-line="2439" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ode_Equation/FN_equation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/lmfit/parameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/paper/lib/python3.6/site-packages/scipy/integrate/_ode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ode_Equation/Lorenz_equation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ode_Equation/comm_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/CommDataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/run_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="703" column="49" selection-start-line="703" selection-start-column="49" selection-end-line="703" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/lv_0.8_0.2_5.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="e#95#1119#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/run_dis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#7660#13900#0" />
+            <element signature="e#18132#20467#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/train_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
